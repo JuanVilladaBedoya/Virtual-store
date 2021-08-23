@@ -18,8 +18,6 @@
     require_once("crud.php");
     $obj = new Usuario(); 
     $obj->conectar(); //  funcion que esta en la clase
-
-    
     
     ?>
     <div class="body">
@@ -40,29 +38,18 @@
         <a class="nav-link" href="login_tienda.php">Registrate</a>
         
         <a class="nav-link" href="login.php">Ingresar</a>
-        
-        
-        
+       
       </div>
     </div>
   </div>
   
 </nav>
-
-
-            </div>
         </div>
-        
+        </div>
     </header>
-    
-
     <main>
         <div class="linea">
-            
-
         </div>
-    
-        
         <div class="container-slider">
             <div class="slider" id="slider">
                 <div class="slider__section">
@@ -83,10 +70,7 @@
         </div>
         <script src="slaider.js"></script>
         <div class="linea">
-            
-
         </div>
-
     <?php foreach($obj->mostrar_info_articulo()as $r){
     ?>
     <div class="card" style="width: 18rem;">
@@ -103,10 +87,7 @@
     <?php } ?>
 </main>
 </div>
-<div class="linea">
-            
-
-        </div>
+<div class="linea"></div>
 
         <footer>
             <p>Copyrigh</p>
