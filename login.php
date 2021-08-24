@@ -76,7 +76,7 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
      <link rel="stylesheet" href="estilos_login.css">
-	 <link rel="icon" href="static/img/logo.ico">
+	 <link rel="icon" href="img/logo.ico">
 </head>
 <body>
 
@@ -88,7 +88,7 @@
 
     <!-- Icon -->
     <div class="fadeIn first">
-      <img src="static/img/logo.jfif" id="icon" alt="User Icon" />
+      <img src="img/logo.jfif" id="icon" alt="User Icon" />
     </div>
 	<div class="registros">
     <!-- Login Form -->
